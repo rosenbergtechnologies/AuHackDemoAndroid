@@ -30,7 +30,8 @@ class PostAdapter(context: Context, posts: List<Post>): BaseAdapter() {
 
     private fun connectAdapterToFirebase() {
 
-        // Here we should make our adapter connect to Firebase!
+        // TODO: Here we should make our adapter connect to Firebase!
+
     }
 
     private fun mapJsonToPosts(dataSnapshot: DataSnapshot) : List<Post> {

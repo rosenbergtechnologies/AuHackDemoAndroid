@@ -20,14 +20,11 @@ class CreatePostActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        //region You can ignore this
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_post)
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false) // Don't show action title
-
-        //endregion
     }
 
     private fun addPost(post: Post) {
@@ -41,7 +38,10 @@ class CreatePostActivity : AppCompatActivity() {
     }
 
     private fun addPostToFirebase(post: Post) {
+
         longToast("Here we should send our post to Firebase!")
+
+        // TODO: Here we should send our post to Firebase
     }
 
     //region Ignore this stuff
