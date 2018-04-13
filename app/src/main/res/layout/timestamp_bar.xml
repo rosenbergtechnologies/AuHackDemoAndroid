@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:id="@+id/survey_question_top_bar_ll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp">
+
+    <net.steamcrafted.materialiconlib.MaterialIconView
+        android:id="@+id/survey_question_timestamp_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        app:materialIcon="clock"
+        app:materialIconColor="@android:color/white"
+        app:materialIconSize="14dp" />
+
+    <TextView
+        android:id="@+id/survey_question_timestamp_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:alpha="0.5"
+        android:text="6 min ago"
+        android:textColor="@android:color/white"
+        android:textSize="10dp" />
+
+</LinearLayout>
