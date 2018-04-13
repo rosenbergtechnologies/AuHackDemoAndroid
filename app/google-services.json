@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1066786008867",
+    "firebase_url": "https://auhackworkshop.firebaseio.com",
+    "project_id": "auhackworkshop",
+    "storage_bucket": "auhackworkshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066786008867:android:75db2104c87b43f9",
+        "android_client_info": {
+          "package_name": "com.rosenbergtech.auhackdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066786008867-thjrfndsjn58qd56bnvlnn9b1j32o4if.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6rRdRh0qN7l-8W9XFJ9QMbzeqeyMOhYc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
