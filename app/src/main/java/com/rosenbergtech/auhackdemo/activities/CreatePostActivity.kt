@@ -39,9 +39,9 @@ class CreatePostActivity : AppCompatActivity() {
 
     private fun addPostToFirebase(post: Post) {
 
-        longToast("Here we should send our post to Firebase!")
-
         // TODO: Here we should send our post to Firebase
+        postsRef.child(post.id).setValue(post)
+
     }
 
     //region Ignore this stuff
