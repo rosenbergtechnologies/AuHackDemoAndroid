@@ -10,6 +10,7 @@ import com.rosenbergtech.auhackdemo.R
 import com.rosenbergtech.auhackdemo.models.Post
 
 import kotlinx.android.synthetic.main.activity_create_post.*
+import org.jetbrains.anko.longToast
 
 class CreatePostActivity : AppCompatActivity() {
 
@@ -40,7 +41,7 @@ class CreatePostActivity : AppCompatActivity() {
     }
 
     private fun addPostToFirebase(post: Post) {
-        postsRef.child(post.id).setValue(post)
+        longToast("Here we should send our post to Firebase!")
     }
 
     //region Ignore this stuff

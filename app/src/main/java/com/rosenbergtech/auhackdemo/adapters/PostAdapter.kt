@@ -30,22 +30,7 @@ class PostAdapter(context: Context, posts: List<Post>): BaseAdapter() {
 
     private fun connectAdapterToFirebase() {
 
-        postsRef.addValueEventListener(object: ValueEventListener {
-
-            override fun onDataChange(dataSnapshot: DataSnapshot) {
-
-                val postsFromFirebase = mapJsonToPosts(dataSnapshot)
-                posts = postsFromFirebase.reversed() // We want the newest posts on the top
-
-                notifyDataSetChanged()
-                adapterChanged()
-            }
-
-            override fun onCancelled(p0: DatabaseError?) {
-
-                // Here we should handle errors... but we skip this because demo.
-            }
-        })
+        // Here we should make our adapter connect to Firebase!
     }
 
     private fun mapJsonToPosts(dataSnapshot: DataSnapshot) : List<Post> {
